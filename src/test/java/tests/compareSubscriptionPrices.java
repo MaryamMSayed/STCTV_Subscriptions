@@ -65,7 +65,7 @@ public class compareSubscriptionPrices {
             "And i select country named []"
             + "Then Packages names will be displayed accordingly"
             + "And Packages currencies will be changed to the selected country's currency", priority = 3)
-    @Description("User will select a country names [bahrain] and validate displayed packages and currency ")
+    @Description("User will select a country names [Kuwait] and validate displayed packages and currency ")
     @Severity(SeverityLevel.CRITICAL)
     public void selectKuwait() {
         new SubscriptionsPage(driver).openCountrySelectionPopUp().selectedCountry(kuwait).closeCountryPopUp();
